@@ -3,6 +3,7 @@ import Nav1 from './Components/Navs/Nav1'
 import Nav2 from './Components/Navs/Nav2'
 import "./App.css"
 import Nav3 from './Components/Navs/Nav3'
+import Nav4 from './Components/Navs/Nav4'
 function App() {
   return (
     <div>
@@ -10,7 +11,9 @@ function App() {
       <Nav1 />
       <Nav2 />
       <div className="test" style={{marginTop:"12px"}}></div>
-      <Nav3/>
+      <Nav3 />
+      <div className="test" style={{ marginTop: "12px" }}></div>
+      <Nav4/>
     </div>
   )
 }

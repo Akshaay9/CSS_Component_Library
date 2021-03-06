@@ -8,9 +8,6 @@
   --NAV_Padding:8px;
   --nav_li_color_light_white:hsl(0, 1%, 60%);
 }
-body{
-  /* overflow-x: hidden; */
-}
 *{
   padding: 0%;
   margin: 0%;
@@ -59,12 +56,12 @@ color: var(  --nav_li_color_pink);
 color: var(  --nav_li_color_light_white);
 }
 .nav_right{
-  width: 12%;
+  width: 8%;
   align-items: center;
   justify-content: space-around;
 }
 .nav_login{
-  width: 32%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
 }
