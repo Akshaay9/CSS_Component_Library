@@ -1,7 +1,118 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
 :root {
-  --nav_li_color_cf: hsl(340, 97%, 58%);
+  --nav_li_color_pink: hsl(340, 97%, 58%);
   --Cf_li_style: "Open Sans", sans-serif;
   --cf_brandName_style: "Roboto", sans-serif;
+  --Nav_BG_Dark:hsl(0, 6%, 13%);
+  --NAV_Padding:8px;
+  --nav_li_color_light_white:hsl(0, 1%, 60%);
 }
+body{
+  /* overflow-x: hidden; */
+}
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.nav{
+  padding: var(--NAV_Padding)
+}
+.nav_mg_auto{
+  width: 80%;
+  margin: auto;
+}
+
+.nav ,.nav_left,.nav_center,.nav_right,.nav_center ul{
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+.bg-dark{
+  background-color: var(--Nav_BG_Dark);
+  color: white;
+}
+.nav_center ul{
+ list-style: none;
+  font-family: var(--Cf_li_style);
+}
+.nav_left{
+  width: 12%;
+  justify-content: space-around;
+  align-items: center;
+  font-family:var(--Cf_li_style) ;
+  font-weight: bolder;
+}
+.nav_center  {
+  width: 70%;
+  align-items: center;
+}
+.nav_center ul{
+  width: 68%;
+  margin: auto;
+}
+.nav_center ul .hr-pink:hover{
+color: var(  --nav_li_color_pink);
+}
+.nav_center ul .hr-light_dark:hover{
+color: var(  --nav_li_color_light_white);
+}
+.nav_right{
+  width: 12%;
+  align-items: center;
+  justify-content: space-around;
+}
+.nav_login{
+  width: 32%;
+  display: flex;
+  justify-content: space-between;
+}
+.nav .fas{
+font-size: 20px;
+}
+/* input box on right */
+.nav_right_single{
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.nav_right_single input{
+border-radius: 9px;
+  padding: 3px;
+  outline: none !important;
+  border: none !important;
+  height: 28px;
+}
+.nav_right_single img{
+  position: absolute;
+  right: 22px;
+}
+.no_right{
+  width: 48%;
+  margin-left: 22px;
+  align-items: center;
+  justify-content: center;
+  margin: auto 0px;
+}
+.no_right ul{
+  display: flex;
+  list-style: none;
+  font-family: var(--Cf_li_style);
+  justify-content: space-between;
+  align-items: center;
+  
+padding: 0px 39px;
+}
+
+
+
+
+
+
+
+
+
+
+

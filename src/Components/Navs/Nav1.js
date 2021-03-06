@@ -12,16 +12,16 @@ function Nav1() {
             />
           </div>
           <div class="nav_name">
-            <h2>Gym .Fit</h2>
+            <h2>Gym.Fit</h2>
           </div>
         </div>
         <div class="nav_center">
           <ul>
-            <li>Gym Centers</li>
-            <li>Gyms</li>
-            <li>Online PT</li>
-            <li>Gym Sport</li>
-            <li>Premium Gym</li>
+            <li className="hr-pink">Gym Centers</li>
+            <li className="hr-pink">Gyms</li>
+            <li className="hr-pink">Online PT</li>
+            <li className="hr-pink">Gym Sport</li>
+            <li className="hr-pink">Premium Gym</li>
           </ul>
         </div>
         <div class="nav_right">
