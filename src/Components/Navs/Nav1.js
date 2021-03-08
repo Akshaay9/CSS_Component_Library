@@ -3,7 +3,7 @@ import React from "react";
 function Nav1() {
   return (
     <div>
-      <div class="nav">
+      <div class="nav ">
         <div class="nav_left">
           <div class="nav_logo">
             <img

@@ -3,7 +3,7 @@ import React from "react";
 function Nav4() {
   return (
     <div>
-      <div className="nav bg-dark">
+      <div className="nav bg-dark nav_mg_auto">
         <div className="no_right">
           <ul>
             <li>Gym Centers</li>

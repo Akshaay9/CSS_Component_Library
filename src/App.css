@@ -1,115 +1,314 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+
 :root {
   --nav_li_color_pink: hsl(340, 97%, 58%);
   --Cf_li_style: "Open Sans", sans-serif;
   --cf_brandName_style: "Roboto", sans-serif;
-  --Nav_BG_Dark:hsl(0, 6%, 13%);
-  --NAV_Padding:8px;
-  --nav_li_color_light_white:hsl(0, 1%, 60%);
+  --Nav_BG_Dark: hsl(0, 6%, 13%);
+  --NAV_Padding: 8px;
+  --nav_li_color_light_white: hsl(0, 1%, 60%);
+  /* toast root */
+  --toast-danger: rgb(24, 6, 5);
+  --toast-warning: #190f00;
+  --toast-info: #030e18;
+  --toast-success: #01180c;
+  --toast-font: Roboto, Helvetica, Arial, sans-serif;
+  --toast-widht: 25%;
+  --toast-height: 10vh;
+  --toast-padding: 1rem;
+  /* alert root */
+  --alert-primary: #cce5ff;
+  --alert-secondary: #e2e3e5;
+  --alert-success: #d4edda;
+  --alert-danger: #f8d7da;
+  --alert-warning: #fff3cd;
+  --alert-info: #d1ecf1;
+  --alert-font: apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  --alert-font-size: 16px;
+  --alert-line-height: 24px;
+  --alert-width: 100%;
+  --alert-padding: 12px 0px;
+  /* badge */
+  --badge-primary-color: #6c757d;
+  --badge-skyBlue-color: #90caf9;
+  --badge-pink-color: #f48fb1;
+  --badge-red-color: #f44336;
+  --badge-font-family: sans-serif;
 }
-*{
+* {
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
 }
-.nav{
-  padding: var(--NAV_Padding)
+
+/* Nav Bars */
+.nav {
+  padding: var(--NAV_Padding);
 }
-.nav_mg_auto{
-  width: 80%;
+.nav_mg_auto {
+  width: 90%;
   margin: auto;
 }
 
-.nav ,.nav_left,.nav_center,.nav_right,.nav_center ul{
+.nav,
+.nav_left,
+.nav_center,
+.nav_right,
+.nav_center ul {
   display: flex;
   justify-content: space-between;
   cursor: pointer;
 }
-.bg-dark{
+.bg-dark {
   background-color: var(--Nav_BG_Dark);
   color: white;
 }
-.nav_center ul{
- list-style: none;
+.nav_center ul {
+  list-style: none;
   font-family: var(--Cf_li_style);
 }
-.nav_left{
+.nav_left {
   width: 12%;
   justify-content: space-around;
   align-items: center;
-  font-family:var(--Cf_li_style) ;
+  font-family: var(--Cf_li_style);
   font-weight: bolder;
 }
-.nav_center  {
+.nav_center {
   width: 70%;
   align-items: center;
 }
-.nav_center ul{
+.nav_center ul {
   width: 68%;
   margin: auto;
 }
-.nav_center ul .hr-pink:hover{
-color: var(  --nav_li_color_pink);
+.nav_center ul .hr-pink:hover {
+  color: var(--nav_li_color_pink);
 }
-.nav_center ul .hr-light_dark:hover{
-color: var(  --nav_li_color_light_white);
+.nav_center ul .hr-light_dark:hover {
+  color: var(--nav_li_color_light_white);
 }
-.nav_right{
-  width: 8%;
+.nav_right {
+  width: 11%;
   align-items: center;
   justify-content: space-around;
 }
-.nav_login{
+.nav_login {
   width: 40%;
   display: flex;
   justify-content: space-between;
 }
-.nav .fas{
-font-size: 20px;
+.nav .fas {
+  font-size: 20px;
 }
 /* input box on right */
-.nav_right_single{
+.nav_right_single {
   width: 15%;
   display: flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
 }
-.nav_right_single input{
-border-radius: 9px;
+.nav_right_single input {
+  border-radius: 9px;
   padding: 3px;
   outline: none !important;
   border: none !important;
   height: 28px;
 }
-.nav_right_single img{
+.nav_right_single img {
   position: absolute;
   right: 22px;
 }
-.no_right{
+.no_right {
   width: 48%;
   margin-left: 22px;
   align-items: center;
   justify-content: center;
   margin: auto 0px;
 }
-.no_right ul{
+.no_right ul {
   display: flex;
   list-style: none;
   font-family: var(--Cf_li_style);
   justify-content: space-between;
   align-items: center;
-  
-padding: 0px 39px;
+  padding: 0px 39px;
 }
 
+/* alerts */
+.toast {
+  display: flex;
 
+  width: var(--toast-widht);
+  min-width: 20rem;
+  height: var(--toast-height);
+  padding: var(--toast-padding);
+  align-items: center;
+  justify-content: space-around;
+  font-family: var(--toast-font);
+  color: white;
+  font-weight: lighter;
+}
+.bg-toast-danger {
+  background-color: var(--toast-danger);
+}
 
+.bg-toast-danger i {
+  color: red;
+  margin-bottom: 12px;
+}
+.bg-toast-warning {
+  background-color: var(--toast-warning);
+}
+.bg-toast-warning i {
+  color: yellow;
+}
+.bg-toast-info {
+  background-color: var(--toast-info);
+}
+.bg-toast-info i {
+  color: rgb(33, 33, 129);
+}
+.bg-toast-success {
+  background-color: var(--toast-success);
+}
+.bg-toast-success i {
+  color: green;
+}
 
+/* alerts */
+.alert {
+  font-family: var(--alert-font);
+  font-size: var(--alert-font-size);
+  line-height: var(--alert-line-height);
+  width: var(--alert-width);
+  padding: var(--alert-padding);
+}
+.alert-primary {
+  background-color: var(--alert-primary);
+}
+.alert-secondary {
+  background-color: var(--alert-secondary);
+}
+.alert-success {
+  background-color: var(--alert-success);
+}
+.alert-danger {
+  background-color: var(--alert-danger);
+}
+.alert-warning {
+  background-color: var(--alert-warning);
+}
+.alert-info {
+  background-color: var(--alert-info);
+}
 
+/* Badge */
+.badgeForNav > * {
+  display: inline;
+}
+.badgeForH1 {
+  width: 12px;
+  height: 12px;
+  background-color: var(--badge-primary-color);
+  color: white;
+  /* font-family: var(--badge-font-family); */
+  padding: 7px;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 8%;
+}
+.badgeForH2 {
+  width: 10px;
+  height: 10px;
+  background-color: var(--badge-skyBlue-color);
+  color: white;
+  /* font-family: var(--badge-font-family); */
+  padding: 4px;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 8%;
+}
+.badgeForH3 {
+  width: 8px;
+  height: 8px;
+  background-color: var(--badge-pink-color);
+  color: white;
+ 
+  padding: 3px;
+  font-weight: bolder;
+  font-size: 20px;
+  border-radius: 8%;
+}
+.fa-shopping-cart,.fa-envelope-open{
+  font-size: 28px;
+}
 
+.badgeContainer1 > * , .badgeContainer2>* ,.badge>* {
+display: inline;
+}
 
+.badgeContainer1 span{
+  display: inline-block;
+width: 1.2rem;
+height: 1.2rem;
+text-align: center;
+border-radius: 50%;
+background-color: var(--badge-pink-color);
+margin-left: -2px;
+color: white;
+font-weight: bolder;
+}
+.badgeContainer2{
+  position: relative;
+}
 
+.badgeContainer2 span{
+  position: absolute;
+left: 20px;
+top: -16px;
+display: inline-block;
+width: 1.2rem;
+height: 1.2rem;
+text-align: center;
+border-radius: 50%;
+background-color: var(--badge-pink-color);
+margin-left: -2px;
+color: white;
+font-weight: bolder;
+}
+.badge{
+  display: inline-block;
+  position: relative;
+}
+.badge span{
+  position: absolute;
+}
+.badge span{
+  position: absolute;
+  left: 20px;
+  top: -12px;
+  display: inline-block;
+  width: 1.2rem;
+  height: 1.2rem;
+  text-align: center;
+  border-radius: 50%;
+  margin-left: -2px;
+  color: white;
+  font-weight: bolder;
+}
+ .badge-red span{
+  background-color: var(--badge-red-color);
+}
+ .badge-skyBlue span{
+  background-color: var(--badge-skyBlue-color);
+}
+ .badge-pink span{
+  background-color: var(--badge-pink-color);
+}
 
-
+/* buttons */
 
