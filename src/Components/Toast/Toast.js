@@ -7,7 +7,7 @@ function Toast() {
                 <i class="fas fa-exclamation-circle"></i>
                 <div className="toastInfo">
                     <p>Error</p>
-                This is an error alert — check it out!
+            <p>This is an error alert — check it out!</p>    
                 </div>
             </div>
             {/*  */}
@@ -17,7 +17,8 @@ function Toast() {
             <i class="fas fa-exclamation-triangle"></i>
                 <div className="toastInfo">
                     <p >warning</p>
-                This is an warning alert—check it out!
+                    <p>This is an warning alert—check it out!</p>
+                
                 </div>
             </div>
              {/*  */}
@@ -27,7 +28,8 @@ function Toast() {
             <i class="fas fa-info-circle"></i>
                 <div className="toastInfo">
                     <p>info</p>
-                This is an info alert — check it out!
+                    <p>This is an info alert — check it out!</p>
+                
                 </div>
             </div>
              {/*  */}
@@ -37,7 +39,8 @@ function Toast() {
             <i class="fas fa-check-circle"></i>
                 <div className="toastInfo">
                     <p>success</p>
-                This is an success alert — check it out!
+                    <p> This is an success alert — check it out!</p>
+               
                 </div>
           </div>
         </div>

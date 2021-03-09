@@ -8,6 +8,7 @@ import Toast from "./Components/Toast/Toast"
 import Alert from "./Components/Alerts/Alert"
 import Badge from './Components/Badge/Badge'
 import Buttons from './Components/Buttons/Buttons'
+import Avatar from './Components/Avatar/Avatar'
 function App() {
   return (
     <div>
@@ -29,7 +30,10 @@ function App() {
       <Badge />
       <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "18px" }} className="line test"></div>
       <h3>Buttons</h3>
-      <Buttons/>
+      <Buttons />
+      <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "18px" }} className="line test"></div>
+      <h3>Avatar</h3>
+      <Avatar />
     </div>
   )
 }
