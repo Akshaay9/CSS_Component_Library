@@ -9,6 +9,7 @@ import Alert from "./Components/Alerts/Alert"
 import Badge from './Components/Badge/Badge'
 import Buttons from './Components/Buttons/Buttons'
 import Avatar from './Components/Avatar/Avatar'
+import Card1 from './Components/Cards/Card1'
 function App() {
   return (
     <div>
@@ -34,6 +35,11 @@ function App() {
       <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "18px" }} className="line test"></div>
       <h3>Avatar</h3>
       <Avatar />
+      <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "18px" }} className="line test"></div>
+      <h3>Cards</h3>
+      <Card1 />
+      <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "30px" }} className="line test"></div>
+      <h3>Cards</h3>
     </div>
   )
 }
