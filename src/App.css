@@ -334,11 +334,13 @@
   display: inline-block;
   width: 1.2rem;
   height: 1.2rem;
+
   text-align: center;
   border-radius: 50%;
   margin-left: -2px;
   color: white;
   font-weight: bolder;
+  
 }
 .badge-red span {
   background-color: var(--badge-red-color);
@@ -348,6 +350,10 @@
 }
 .badge-pink span {
   background-color: var(--badge-pink-color);
+}
+.badge-blue span{
+  background-color: var(--blue);
+  
 }
 
 .badge img {
@@ -798,6 +804,47 @@ transition: all 0.3s ease-out ;
 }
 .modal-basic-bottom .btn{
   width: 50%;
+}
+
+/* list */
+
+.list{
+  width: 300px;
+  border: 1px solid rgba(0,0,0,.125);
+}
+.list-group{
+  position: relative;
+    display: block;
+    padding: .75rem 1.25rem;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+.list-group:hover{
+  color: #fff;
+  background-color:var(--blue);
+  border-color: var(--blue);
+}
+.list-group-badge{
+  padding: .75rem 2.25rem;
+  margin-bottom: -1px;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,.125);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+/* notification list */
+.notifiation-list{
+  width: 680px;
+  border: 1px solid rgba(0,0,0,.125);
+  
+}
+.notifiation-list-li{
+  justify-content: space-between;
+  display: flex;
+  border: 1px solid rgba(0,0,0,.125);
+  padding: .75rem 1rem;
 }
 
 
