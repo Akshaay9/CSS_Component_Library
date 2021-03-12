@@ -10,6 +10,7 @@ import Badge from './Components/Badge/Badge'
 import Buttons from './Components/Buttons/Buttons'
 import Avatar from './Components/Avatar/Avatar'
 import Card1 from './Components/Cards/Card1'
+import Input from './Components/Input/Input'
 function App() {
   return (
     <div>
@@ -39,7 +40,8 @@ function App() {
       <h3>Cards</h3>
       <Card1 />
       <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "30px" }} className="line test"></div>
-      <h3>Cards</h3>
+      <h3>Input</h3>
+      <Input/>
     </div>
   )
 }

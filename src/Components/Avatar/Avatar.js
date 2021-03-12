@@ -3,7 +3,7 @@ import React from "react";
 function Avatar() {
   return (
     <div>
-      <div style={{display:"grid",gridTemplateColumns:"repeat(4,90px)"}}>
+      <div style={{display:"grid",gridTemplateColumns:"repeat(auto-fill,90px)"}}>
         <div className="avatar round-xs">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/8/89/Chris_Evans_2020_%28cropped%29.jpg"
