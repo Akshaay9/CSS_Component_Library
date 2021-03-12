@@ -18,8 +18,8 @@ function Input() {
           <button className="btn btn-primary">Sign-In</button>
         <p>Don't have an account? Sign Up</p>
         </div>
-       
       </div>
+      <div className="test" style={{marginTop:"12px"}}></div>
       <div className="login-form">
         <div className="login-form-header">
           <i class="fas fa-user"></i>
