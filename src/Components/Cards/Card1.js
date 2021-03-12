@@ -2,6 +2,7 @@ import React from "react";
 
 function Card1() {
   return (
+    <>
     <div
       style={{
         display: "grid",
@@ -147,7 +148,6 @@ function Card1() {
               <p>septmeber 14 2020</p>
             </div>
           </div>
-        
         </div>
         <div className="card-profile-description">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ut
@@ -161,7 +161,31 @@ function Card1() {
           commodi doloremque, laudantium architecto impedit id!
         </div>
       </div>
-    </div>
+      <div className="test" style={{marginTop:"19px"}}></div>
+     
+      </div>
+      <div className="card-horizontal">
+        <div className="card-horizontal-left">
+          <img
+            src="https://cache.desktopnexus.com/thumbseg/498/498008-bigthumbnail.jpg"
+            alt=""
+          />
+        </div>
+        <div className="card-horizontal-right">
+          <div className="card-horizontal-right-name">
+            Jane Doe
+          </div>
+          <div className="card-horizontal-right-title">
+         <h3>Boxing icon has the will for a couple more fights</h3>   
+          </div>
+          <div className="card-horizontal-right-description">
+            Boxing icon has the will for a couple more fights
+             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis est quibusdam, officia ratione molestias porro corrupti mollitia harum quasi aperiam nesciunt accusantium cumque eum. Quaerat quidem esse tenetur modi distinctio?
+          </div>
+          
+        </div>
+      </div>
+</>
   );
 }
 

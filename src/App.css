@@ -614,7 +614,7 @@
 .card-profile {
   width: 20rem;
   position: relative !important;
-  background-color: rgb(206, 207, 209);
+  background-color: rgb(234, 237, 243);
 }
 .card-profile-image img {
   display: block;
@@ -665,6 +665,31 @@
   -webkit-box-shadow: 17px 16px 6px -1px rgba(0, 0, 0, 0.39);
   box-shadow: 17px 16px 6px -1px rgba(0, 0, 0, 0.39);
 }
+
+.card-horizontal{
+width: 700px;
+margin: auto;
+display: flex;
+height: 20rem;
+}
+
+.card-horizontal-left{
+  height: inherit;
+  width: 100%;
+}
+.card-horizontal-left img{
+  height: inherit;
+object-fit: contain;
+position: relative;
+}
+.card-horizontal-right{
+  padding: 12px 12px;
+}
+.card-horizontal-right-description,.card-horizontal-right-title{
+  margin-top: 20px;
+}
+
+
 
 /* input forms */
 .login-form{

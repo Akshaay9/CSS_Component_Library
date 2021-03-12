@@ -12,6 +12,7 @@ import Avatar from './Components/Avatar/Avatar'
 import Card1 from './Components/Cards/Card1'
 import Input from './Components/Input/Input'
 import Modal from './Components/Modal/Modal'
+import Rating from './Components/Rating/Rating'
 function App() {
   return (
     <div>
@@ -46,6 +47,9 @@ function App() {
       <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "30px" }} className="line test"></div>
       <h3>Modal</h3>
       <Modal/>
+      <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "30px" }} className="line test"></div>
+      <h3>Rating</h3>
+      <Rating/>
     </div>
   )
 }
