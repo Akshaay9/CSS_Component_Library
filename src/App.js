@@ -13,6 +13,7 @@ import Card1 from './Components/Cards/Card1'
 import Input from './Components/Input/Input'
 import Modal from './Components/Modal/Modal'
 import List from './Components/List/List'
+import TextUtilities from './Components/TextUtilities/TextUtilities'
 function App() {
   return (
     <div>
@@ -50,6 +51,9 @@ function App() {
       <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "30px" }} className="line test"></div>
       <h3>List</h3>
       <List/>
+      <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "30px" }} className="line test"></div>
+      <h3>TextUtilities</h3>
+      <TextUtilities/>
     </div>
   )
 }

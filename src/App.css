@@ -1,12 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
 :root {
+  /* Text Utilites */
+  
   /* global colors */
   --pink: #f48fb1;
   --red: #f44336;
   --blue: #007bff;
   --shaded_black: rgb(94, 89, 89);
+  --font-roboto:'Roboto', sans-serif;
+  --font-notosans: 'Noto Sans', sans-serif;
+  --font-montserrat: 'Montserrat', sans-serif;;
 
   --nav_li_color_pink: hsl(340, 97%, 58%);
   --Cf_li_style: "Open Sans", sans-serif;
@@ -847,5 +855,19 @@ transition: all 0.3s ease-out ;
   padding: .75rem 1rem;
 }
 
+/* Text Utilities  */
 
+.sans{
+  font-family: var(--font-notosans);
+}
 
+.roboto{
+  font-family: var(--font-roboto);
+}
+.shaded-black{
+  color: var(--shaded_black);
+
+}
+.monteserat{
+  font-family: var(--font-montserrat);
+}
