@@ -26,7 +26,7 @@ function TextUtilities() {
             <p className="p roboto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sit adipisci eveniet atque ducimus impedit doloremque est rerum asperiores pariatur.</p>
             <p className="p sans">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sit adipisci eveniet atque ducimus impedit doloremque est rerum asperiores pariatur.</p>
             <p className="p monteserat">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sit adipisci eveniet atque ducimus impedit doloremque est rerum asperiores pariatur.</p>
-            <p className="p sans shaded-black">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sit adipisci eveniet atque ducimus impedit doloremque est rerum asperiores pariatur.</p>
+            <p className="p sans shaded-black">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut sit adipisci eveniet atque ducimus impedit doloremque est rerum asperiores pariatu</p>
         </div>
     )
 }
