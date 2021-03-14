@@ -6,11 +6,11 @@ function Nav4() {
       <div className="nav bg-dark nav_mg_auto">
         <div className="no_right">
           <ul>
-            <li>Gym Centers</li>
-            <li>Gyms</li>
-            <li>Online PT</li>
-            <li>Gym Sport</li>
-            <li>Premium Gym</li>
+            <li className="hr-underline-grow">Gym Centers</li>
+            <li className="hr-underline-grow">Gyms</li>
+            <li className="hr-underline-grow">Online PT</li>
+            <li className="hr-underline-grow">Gym Sport</li>
+            <li className="hr-underline-grow">Premium Gym</li>
           </ul>
         </div>
         <div className="nav_left">

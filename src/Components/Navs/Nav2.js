@@ -11,11 +11,11 @@ function Nav2() {
         </div>
         <div className="nav_center">
           <ul>
-            <li className="hr-light_dark">Home</li>
-            <li className="hr-light_dark">About</li>
-            <li className="hr-light_dark">Blog</li>
-            <li className="hr-light_dark">Classes</li>
-            <li className="hr-light_dark">Contact</li>
+            <li className="hr-underline-middle">Home</li>
+            <li className="hr-underline-middle">About</li>
+            <li className="hr-underline-middle">Blog</li>
+            <li className="hr-underline-middle">Classes</li>
+            <li className="hr-underline-middle">Contact</li>
           </ul>
         </div>
               <div className="nav_right_single">

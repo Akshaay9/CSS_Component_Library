@@ -3,7 +3,7 @@ import React from "react";
 function Nav1() {
   return (
     <div>
-      <div class="nav ">
+      <div class="nav">
         <div class="nav_left">
           <div class="nav_logo">
             <img
@@ -14,14 +14,14 @@ function Nav1() {
           <div class="nav_name">
             <h2>Gym.Fit</h2>
           </div>
-        </div>
+        </div> 
         <div class="nav_center">
           <ul>
-            <li className="hr-pink">Gym Centers</li>
-            <li className="hr-pink">Gyms</li>
-            <li className="hr-pink">Online PT</li>
-            <li className="hr-pink">Gym Sport</li>
-            <li className="hr-pink">Premium Gym</li>
+            <li className="hr-pink hr-underline-left">Gym Centers</li>
+            <li className="hr-pink hr-underline-left">Gyms</li>
+            <li className="hr-pink hr-underline-left">Online PT</li>
+            <li className="hr-pink hr-underline-left">Gym Sport</li>
+            <li className="hr-pink hr-underline-left">Premium Gym</li>
           </ul>
         </div>
         <div class="nav_right">

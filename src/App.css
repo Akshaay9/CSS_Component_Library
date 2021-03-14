@@ -4,10 +4,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 
-:root {
-  /* Text Utilites */
-  
-  /* global colors */
+:root {  
+  /* global colors and fonts */
   --pink: #f48fb1;
   --red: #f44336;
   --blue: #007bff;
@@ -15,7 +13,6 @@
   --font-roboto:'Roboto', sans-serif;
   --font-notosans: 'Noto Sans', sans-serif;
   --font-montserrat: 'Montserrat', sans-serif;;
-
   --nav_li_color_pink: hsl(340, 97%, 58%);
   --Cf_li_style: "Open Sans", sans-serif;
   --cf_brandName_style: "Roboto", sans-serif;
@@ -871,3 +868,96 @@ transition: all 0.3s ease-out ;
 .monteserat{
   font-family: var(--font-montserrat);
 }
+
+/*  */
+/*  */
+/* CSS Underline Effects (middle to sides) */ 
+li.hr-underline-middle
+{
+    position: relative;
+}
+
+li.hr-underline-middle:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+li.hr-underline-middle:hover:before {
+  visibility: visible;
+  transform: scaleX(1.1);
+}
+/* left to right */
+li.hr-underline-left
+{
+    position: relative;
+}
+
+li.hr-underline-left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -3px;
+  left: 0;
+  background-color: var(--nav_li_color_pink);
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+}
+li.hr-underline-left:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+/*right to left  */
+li.hr-underline-right
+{
+    position: relative;
+}
+
+li.hr-underline-right:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -3px;
+  right: 0;
+  background-color: white;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+}
+li.hr-underline-right:hover:before {
+  visibility: visible;
+  width: 100%;
+}
+
+/* grow from botton */
+li.hr-underline-grow
+{
+    position: relative;
+}
+
+li.hr-underline-grow:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0;
+  bottom: -3px;
+  left: 0;
+  background-color: #FFF;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+
+}
+li.hr-underline-grow:hover:before {
+  visibility: visible;
+  height: 4px;
+}
+
+/* button hover effect */
+/* buttonx */

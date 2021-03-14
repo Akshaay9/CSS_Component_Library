@@ -11,11 +11,11 @@ function Nav3() {
         </div>
               <div className="no_right">
               <ul>
-            <li >Gym Centers</li>
-            <li >Gyms</li>
-            <li >Online PT</li>
-            <li >Gym Sport</li>
-            <li >Premium Gym</li>
+            <li className="hr-underline-right">Gym Centers</li>
+            <li className="hr-underline-right">Gyms</li>
+            <li className="hr-underline-right">Online PT</li>
+            <li className="hr-underline-right">Gym Sport</li>
+            <li className="hr-underline-right">Premium Gym</li>
           </ul>
         </div>
       </div>
