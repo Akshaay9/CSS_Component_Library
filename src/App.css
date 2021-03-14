@@ -61,6 +61,8 @@
   --btn-info: #007bff;
   --btn-light: #f8f9fa;
   --btn-dark: #343a40;
+  --btn-light-border:#ad325e;
+  --btn-link-border:rgb(4, 4, 224);
   --btn-link: #ffffff;
   --btn-font-color: rgb(255, 255, 255);
   --btn-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
@@ -423,6 +425,7 @@
 .btn-light {
   background-color: var(--btn-light);
   color: black;
+  border: 1px solid var(--btn-light-border);
 }
 .btn-dark {
   background-color: var(--btn-dark);
@@ -960,4 +963,72 @@ li.hr-underline-grow:hover:before {
 }
 
 /* button hover effect */
-/* buttonx */
+/* button */
+/* Primar */
+.btn-primary-hr-outline-out{
+  outline: 2px solid var(--btn-primary);
+  border: 2px solid var(--btn-primary);
+  outline-offset: -2px;
+  transition:outline-offset 100ms ease;
+}
+.btn-primary-hr-outline-out:hover,
+.btn-primary-hr-outline-out:focus{
+outline-offset: 3px;
+}
+/* secondary */
+.btn-secondary-hr-outline-in{
+  outline: 2px solid var(--btn-light);
+  border: 2px solid var(--btn-secondary);
+  transition:outline-offset 100ms ease;
+}
+.btn-secondary-hr-outline-in:hover,
+.btn-secondary-hr-outline-in:focus{
+outline-offset: -6px;
+}
+/* light */
+.btn-light-hr-outline-out{
+  outline: 2px solid var(--btn-light-border);
+  border: 2px solid var(--btn-light-border);
+  outline-offset: -2px;
+  transition:outline-offset 100ms ease;
+}
+.btn-light-hr-outline-out:hover,
+.btn-light-hr-outline-out:focus{
+outline-offset: -6px;
+}
+
+/* success */
+
+.btn-success{
+  transition: all 100ms ease-in-out ;
+}
+.btn-success-hr-scale-out:hover,
+.btn-success-hr-scale-out:focus
+{
+  transform: scale(0.955);
+}
+
+/* danger */
+.btn-danger{
+  transition: all 100ms ease-in-out ;
+}
+
+.btn-danger-hr-outline-out:hover,
+.btn-danger-hr-outline-out:focus
+{
+  transform: scale(1.04);
+}
+
+/* link */
+.btn-link-hr-outline-in-thick{
+  outline: 5px solid var(--btn-light-border);
+  border:5px solid var(--btn-light-border);
+  outline-offset: -5px;
+  transition:outline-offset 100ms ease;
+}
+
+.btn-link-hr-outline-in-thick:focus,
+.btn-link-hr-outline-in-thick:hover{
+  outline-offset: -10px;
+  outline-width: -8px;
+}
