@@ -10,7 +10,9 @@ function Buttons() {
         <button className="btn btn-info">info</button>
         <button className="btn btn-light btn-primary btn-light-hr-outline-out">light</button>
         <button className="btn btn-dark">dark</button>
-        <button className="btn btn-link btn-link-hr-outline-in-thick">link</button>       
+            <button className="btn btn-link btn-link-hr-outline-in-thick">link</button>
+
+ 
         </div>
     )
 }
