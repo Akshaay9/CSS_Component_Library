@@ -1,7 +1,9 @@
-Webiste Live :- https://competent-perlman-5969d1.netlify.app/       
+Webiste Live   
+Link : https://competent-perlman-5969d1.netlify.app/       
 
 
-  You can Add my CSS sheet to your website via :-  https://i5wi4.csb.app/style.css      
+  You can Add my CSS sheet to your website via :-   
+  Link : https://i5wi4.csb.app/style.css      
 
 
 Below is the Link for my Figma, which contains all my UI designs for this project.  
