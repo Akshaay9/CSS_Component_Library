@@ -118,7 +118,7 @@ function App() {
         <Avatar />
   
         <div className="test" style={{ marginTop: "12px" }}></div>
-        
+      
       </div>}
       {showcssComp == "cards" &&
 
@@ -126,18 +126,25 @@ function App() {
           <Card1 />
         </div>
       }
-     
 
 
-      <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "30px" }} className="line test"></div>
-      <h3>Input</h3>
-      <Input/>
-      <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "30px" }} className="line test"></div>
-      <h3>Modal</h3>
-      <Modal/>
-      <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "30px" }} className="line test"></div>
-      <h3>List</h3>
-      <List/>
+      {showcssComp == "input" &&
+        <div className="inputss">
+          <Input />
+        </div>}
+      
+      {showcssComp == "modal" &&
+        <div className="modaal">
+          <Modal />
+        </div>}
+
+      {showcssComp == "list" &&
+        <div className="listss">
+          <List />
+        </div>}
+      
+
+
       <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "30px" }} className="line test"></div>
       <h3>TextUtilities</h3>
       <TextUtilities/>
