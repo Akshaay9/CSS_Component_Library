@@ -144,10 +144,14 @@ function App() {
         </div>}
       
 
-
-      <div style={{ width: "100%", height: "0.7vh", backgroundColor: "black", marginTop: "30px" }} className="line test"></div>
-      <h3>TextUtilities</h3>
-      <TextUtilities/>
+     
+      {showcssComp == "textutility" &&
+     
+        <div className="textutilitiess">
+          <h3>TextUtilities</h3>
+        </div>}
+    
+     
     </div>
   )
 }
