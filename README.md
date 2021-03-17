@@ -3,7 +3,8 @@ Link : https://competent-perlman-5969d1.netlify.app/
 
 
   You can Add my CSS sheet to your website via :-   
-  Link : https://i5wi4.csb.app/style.css      
+  Link : https://i5wi4.csb.app/style.css     
+  Link: https://akshaay98.github.io/cssCompLibrary/style.css
 
 
 Below is the Link for my Figma, which contains all my UI designs for this project.  
