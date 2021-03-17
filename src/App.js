@@ -148,7 +148,8 @@ function App() {
       {showcssComp == "textutility" &&
      
         <div className="textutilitiess">
-          <h3>TextUtilities</h3>
+        <h3>TextUtilities</h3>
+        <TextUtilities/>
         </div>}
     
      
