@@ -6,6 +6,8 @@
 
 :root {
   /* global colors and fonts */
+  --gray:#66696e;
+  --dark-shaded-blue:rgb(0,125,181);
   --pink: #f48fb1;
   --red: #f44336;
   --blue: #007bff;
