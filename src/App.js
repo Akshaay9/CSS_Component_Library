@@ -17,6 +17,7 @@ import List from './Components/List/List'
 import TextUtilities from './Components/TextUtilities/TextUtilities'
 import Intro from './Components/Intro'
 import DropDownList from './Components/DropDownLists/DropDownList'
+import ResponsiveImage from './Components/ResponsiveImage/ResponsiveImage'
 function App() {
   const[showcssComp,setShowCssComp]=useState("welcome")
   return (
@@ -165,6 +166,11 @@ function App() {
   style={{width:"550px",height:"650px",border:"0",overflow:"hidden",display:"block",margin:"auto"}}
   sandbox="allow-scripts allow-same-origin">
 </iframe>
+        </div>}
+      
+        {showcssComp == "ResponsiveImage" &&
+        <div className="ResponsiveImage">
+          <ResponsiveImage/>
         </div>}
     
      

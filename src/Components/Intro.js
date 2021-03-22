@@ -4,7 +4,7 @@ function Intro() {
     return (
         <>
         <div style={{ marginTop: "3rem", marginLeft: "20px" }}>
-            <h2  >Welcome to UI world component library.</h2>
+            <h2  >Welcome to UI world.</h2>
 <p style={{width:"70%",fontSize:"17px",lineHeight:"24px",marginTop:"12px"}}>Start Building web applications without worrying about style,desgn and color, let me take of that, Introducing you, UI world. A CSS component library with more 10+ popular Style components specially designed by keeping in mind all the necessary design principles.</p>
             </div>
         <div style={{ marginTop: "1rem", marginLeft: "20px" }}>
