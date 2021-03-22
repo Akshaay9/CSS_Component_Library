@@ -903,7 +903,7 @@ li.hr-underline-left:before {
   height: 2px;
   bottom: -3px;
   left: 0;
-  background-color: var(--nav_li_color_pink);
+  background-color: var(--btn-dark);
   visibility: hidden;
   transition: all 0.4s ease-in-out;
 }
