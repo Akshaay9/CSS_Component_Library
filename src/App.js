@@ -151,12 +151,12 @@ function App() {
       
 
      
-      {/* {showcssComp == "textutility" &&
+      {showcssComp == "textutility" &&
      
         <div className="textutilitiess">
         <h3>TextUtilities</h3>
         <TextUtilities/>
-        </div>} */}
+        </div>}
       {showcssComp == "DropDownList" &&
         <div className="DropDownList">
         <DropDownList />
