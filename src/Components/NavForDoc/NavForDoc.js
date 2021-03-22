@@ -18,6 +18,7 @@ function NavForDoc({setShowCssComp,showcssComp}) {
                     <li  onClick={()=>setShowCssComp("modal")}>Modal</li>
                     <li  onClick={()=>setShowCssComp("textutility")}>TextUtilities</li>
                     <li  onClick={()=>setShowCssComp("toast")}>Toast</li>
+                    <li  onClick={()=>setShowCssComp("DropDownList")}>Drop Down Links</li>
                    
                 </ul>
             </div>

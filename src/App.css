@@ -6,6 +6,8 @@
 
 :root {
   /* global colors and fonts */
+
+  --line-color: #d2d2d2;
   --gray:#66696e;
   --dark-shaded-blue:rgb(0,125,181);
   --pink: #f48fb1;
@@ -75,6 +77,9 @@
   padding: 0%;
   margin: 0%;
   box-sizing: border-box;
+}
+li{
+  list-style: none !important
 }
 
 /* Nav Bars */
@@ -1024,19 +1029,21 @@ li.hr-underline-grow:hover:before {
 
 /* nav for documentation */
 .navForDoc{
-  width: 90%;
+  width: 95%;
   background-color: black;
   color: white;
   height: 7vh;
   display: flex;
   justify-content:center;
   margin: auto;
+  z-index: 100;
+ 
 }
 .navForDoc ul {
   display: flex;
   justify-content: space-around;
  align-items: center;
- width: 90%;
+ width: 100%;
 
 }
 .navForDoc ul li {
@@ -1050,5 +1057,41 @@ font-family: var(--font-roboto);
   position: relative;
 }
 /* dropdownMenus */
+.nav-hoover-further-links{
+  border: 1px solid var(--line-color);
+  width: 12rem;
+  height: 28vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 15px;
+}
+.nav-hoover-further-links li {
+  margin: 1vh 0vh;
+  color: var(--grey);
+}
+.nav-hoover-further-links li:hover {
+  color: black;
+  cursor: pointer;
+}
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 15px solid var(--line-color);
+  outline: 2px;
+  outline: 12px;
+  
+  margin-top: -18px;
+}
+.box-arrow {
+  width: 3.3rem;
+  height: 2rem;
+  position: absolute;
+  top: -25px;
+  cursor: pointer;
+}
 
 
