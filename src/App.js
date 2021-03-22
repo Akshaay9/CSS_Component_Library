@@ -15,12 +15,16 @@ import Input from './Components/Input/Input'
 import Modal from './Components/Modal/Modal'
 import List from './Components/List/List'
 import TextUtilities from './Components/TextUtilities/TextUtilities'
+import Intro from './Components/Intro'
 function App() {
-  const[showcssComp,setShowCssComp]=useState("nav")
+  const[showcssComp,setShowCssComp]=useState("welcome")
   return (
     <div>
-      
-      <NavForDoc  showcssComp={showcssComp}setShowCssComp={setShowCssComp} />
+      <NavForDoc showcssComp={showcssComp} setShowCssComp={setShowCssComp} />
+      {showcssComp == "welcome" &&
+        <>
+        <Intro />
+        </>}
      { showcssComp=="nav" &&
       <div className="navComponent" onClick={()=>setShowCssComp("nav")}>
 
@@ -145,12 +149,12 @@ function App() {
       
 
      
-      {showcssComp == "textutility" &&
+      {/* {showcssComp == "textutility" &&
      
         <div className="textutilitiess">
         <h3>TextUtilities</h3>
         <TextUtilities/>
-        </div>}
+        </div>} */}
     
      
     </div>
