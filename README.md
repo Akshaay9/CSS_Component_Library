@@ -1,6 +1,6 @@
 Webiste Live   
 
-     Link : https://competent-perlman-5969d1.netlify.app/       
+     Link : https://ui-world.netlify.app/    
 
 
   You can Add my CSS sheet to your website via :-   
@@ -13,9 +13,7 @@ Webiste Live
 Below is the Link for my Figma, which contains all my UI designs for this project.  
          
      Link : https://www.figma.com/file/2IjU52bNMQYWr7Gf1mTSdM/cssComponentLibrary?node-id=1%3A24     
-    
- 
-
+   
 
 Using the things i just learnt make a **component library** for myself which i can use in my projects. 
 - Keep the colors outside as shown in levelZero.
