@@ -25,9 +25,11 @@ function Nav1() {
           </ul>
         </div>
         <div class="nav_right">
+          <div className="nav_search">
+            <i class="fas fa-search"></i>
+          </div>
           <div class="nav_login">
             <i class="fas fa-user"></i>
-            <span>Login</span>
           </div>
           <div class="nav_cart">
             <i class="fas fa-shopping-cart"></i>

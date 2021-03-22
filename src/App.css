@@ -125,12 +125,11 @@
   color: var(--nav_li_color_light_white);
 }
 .nav_right {
-  width: 11%;
+  width: 15%;
   align-items: center;
   justify-content: space-around;
 }
 .nav_login {
-  width: 40%;
   display: flex;
   justify-content: space-between;
 }
