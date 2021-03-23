@@ -6,9 +6,9 @@ function NavForDoc({setShowCssComp,showcssComp}) {
             <div className="navForDoc">
                 <ul>
                    <li  onClick={()=>setShowCssComp("welcome")}>Intro</li>
-                   
                     <li onClick={() => setShowCssComp("avatar")}>Avatar</li>
                     <li onClick={()=>setShowCssComp("nav")}>Nav</li>
+                    <li onClick={()=>setShowCssComp("footer")}>Footer</li>
                     <li  onClick={()=>setShowCssComp("alert")}>Alert</li>
                     <li  onClick={()=>setShowCssComp("badge")}>Badge</li>
                     <li  onClick={()=>setShowCssComp("buttons")}>Buttons</li>

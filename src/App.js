@@ -18,6 +18,7 @@ import TextUtilities from './Components/TextUtilities/TextUtilities'
 import Intro from './Components/Intro'
 import DropDownList from './Components/DropDownLists/DropDownList'
 import ResponsiveImage from './Components/ResponsiveImage/ResponsiveImage'
+import Footer from './Components/Footer/Footer'
 function App() {
   const[showcssComp,setShowCssComp]=useState("welcome")
   return (
@@ -171,6 +172,10 @@ function App() {
         {showcssComp == "ResponsiveImage" &&
         <div className="ResponsiveImage">
           <ResponsiveImage/>
+        </div>}
+        {showcssComp == "footer" &&
+        <div className="ResponsiveImage">
+          <Footer/>
         </div>}
     
      
