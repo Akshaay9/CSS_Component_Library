@@ -14,6 +14,31 @@ function Badge() {
       <div className="badgeForNav">
         <h3>Example heading</h3> <span className="badgeForH3">New</span>
       </div>
+      <div className="descrip" style={{ margin: "0rem 1rem" }}>
+        <div className="heading">
+          <h2 style={{ margin: "0rem 1rem" }}> Badges</h2>
+          <p style={{ margin: "0.5rem 1rem" }}>
+            {" "}
+            1) Badges are two different type, one is added near a text, Navigation bar to be precise and other is added neaar icons
+          </p>
+          <p></p>
+          <p style={{ margin: "0.5rem 1rem" }}>
+            2) The above seen one is added near a text, mentioning the user that the new Feature has been added to the website or mentioning new Beta version of feature is added or u have unlocked a new content, basically to grab or notify user about the presence of new feature,  this can be achieved by adding className
+            <span
+              style={{
+                display: "inline-block",
+                backgroundColor: "gray",
+                color: "white",
+                padding: "0px 5px",
+              }}
+            >
+              badgeFor h1/h2/h3
+            </span>{" "}
+            Depend upon the kind of text to near which u r planning to add this feature
+          </p>
+        </div>
+      </div>
+
       <iframe
   src="https://carbon.now.sh/embed?bg=rgba%28216%2C217%2C218%2C1%29&t=blackboard&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=34px&ph=23px&ln=true&fl=1&fm=Fira+Code&fs=13px&lh=181%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520className%253D%2522badgeForNav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EExample%2520heading%253C%252Fh1%253E%2520%253Cspan%2520className%253D%2522badgeForH1%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522badgeForNav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253EExample%2520heading%253C%252Fh2%253E%2520%253Cspan%2520className%253D%2522badgeForH2%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522badgeForNav%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%253EExample%2520heading%253C%252Fh3%253E%2520%253Cspan%2520className%253D%2522badgeForH3%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
   style={{width:"520px",height:"477px",border:"0",overflow:"hidden",display:"block",margin:"auto"}}
@@ -62,6 +87,16 @@ function Badge() {
           alt=""
         />
         <span>1</span>
+        </div>
+      </div>
+
+      <div className="descrip" style={{ margin: "0rem 1rem" }}>
+        <div className="heading">
+          <h2 style={{ margin: "0rem 1rem" }}> Badges Two</h2>
+         
+          <p style={{ margin: "0.5rem 1rem" }}>
+            As mentioned earlier regarding two different kinds of badges, this is the second kind of branch where it is added near an icon(cart, email,avatar, etc:-) mainly to notify user about some kind notification/to state that their action has been recorded. 
+          </p>
         </div>
       </div>
       

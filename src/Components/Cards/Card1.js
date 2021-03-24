@@ -200,6 +200,40 @@ function Card1() {
         </div>
       </div>
 
+      <div className="descrip" style={{ margin: "0rem 1rem" }}>
+        <div className="heading">
+          <h2 style={{ margin: "0rem 1rem" }}> Cards</h2>
+          <p style={{ margin: "0.5rem 1rem" }}>
+            {" "}
+          There are 6 different cards bases on their style and content distribution which can be seen above
+          </p>
+         
+          <p style={{ margin: "0.5rem 1rem" }}>
+            1) First one is a Card With badge on it to notify user or to highlight the card which has some kind of information
+          </p>
+          <p style={{ margin: "0.5rem 1rem" }}>
+            2) Second card is slightly same as first card as first with few difference such as, there is an close icon at top right to close the card and the size of the card is slightly lower than other card
+          </p>
+          <p style={{ margin: "0.5rem 1rem" }}>
+            3) third  one is an text overlay card which has alll the information about the card on the image itself 
+          </p>
+          <p style={{ margin: "0.5rem 1rem" }}>
+            4) Fourth one is fully fledged card which has numerous information starting from useers avatar,name and a content with picture and description and lastly there are few incons to perform further actions on card
+          </p>
+          <p style={{ margin: "0.5rem 1rem" }}>
+            5) Fifth card is same as fourth card except there is an background color on the card
+          </p>
+          <p style={{ margin: "0.5rem 1rem" }}>
+            6) sixth card is same as fourth card excepr there is a box shadown on the card
+            
+          </p>
+          <p style={{ margin: "0.5rem 1rem" }}>
+            7) seventh card is slightly differrent from other cards, the content on the card is horizontal unlike other cards which are verticlly aligned.
+            
+          </p>
+        </div>
+      </div>
+
 
       <iframe
   src="https://carbon.now.sh/embed?bg=rgba%28216%2C217%2C218%2C1%29&t=blackboard&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=34px&ph=23px&ln=true&fl=1&fm=Fira+Code&fs=13px&lh=181%25&si=false&es=2x&wm=false&code=%2520%2520%253Cdiv%2520className%253D%2522card-basic%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimg.gymshark.com%252Fimage%252Ffetch%252Fq_auto%252Cf_auto%252Cw_600%252Fhttps%253A%252F%252Fcdn.shopify.com%252Fs%252Ffiles%252F1%252F1367%252F5201%252Fproducts%252FRESTOREJACKETBLACK.A-Edit_ZH_ZH_f5587b6a-470d-47b1-88b5-10ef6dd83102.jpg%253Fv%253D1614086813%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520className%253D%2522cardBadge%2522%253ENew%2520Arrival%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522descriptionLeft%2522%253EArrival-Tshirt%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522descriptionRight%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E20%2524%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522footer%2522%253EBlack%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%257B%252F*-----------------------------------------------------------------------------------*%252F%257D%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522card-dismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimg.gymshark.com%252Fimage%252Ffetch%252Fq_auto%252Cf_auto%252Cw_600%252Fhttps%253A%252F%252Fcdn.shopify.com%252Fs%252Ffiles%252F1%252F1367%252F5201%252Fproducts%252FCOMPOUNDSHORTCAMOGREEN.A-Edit_ZH.jpg%253Fv%253D1613985620%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522cardDismiss%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522far%2520fa-times-circle%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522descriptionLeft%2522%253EArrival-Shorts%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522descriptionRight%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E20%2524%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522footer%2522%253EBlack%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%257B%252F*-----------------------------------------------------------------------------------*%252F%257D%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522card-text-overlay%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522img%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cimg%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520src%253D%2522https%253A%252F%252Fimages.pexels.com%252Fphotos%252F1431282%252Fpexels-photo-1431282.jpeg%253Fauto%253Dcompress%2526cs%253Dtinysrgb%2526dpr%253D2%2526h%253D650%2526w%253D940%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520alt%253D%2522%2522%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%252F%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522card-description%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Lorem%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Tenetur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520Puta%2520madre%2520minima%2520Lorem%2520ipsum%252C%2520dolor%2520sit%2520amet%2520consectetur%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520adipisicing%2520elit.%2520Excepturi%2520et%2520amet%2520vero.%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%257B%252F*-----------------------------------------------------------------------------------*%252F%257D%250A%2520%2520%2520%2520%2520%2520"

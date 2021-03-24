@@ -3,6 +3,17 @@ import React from "react";
 function Input() {
   return (
     <div>
+         <div className="descrip" style={{ margin: "0rem 1rem" }}>
+        <div className="heading">
+          <h2 style={{ margin: "0rem 1rem" }}> Login component</h2>
+          <p style={{ margin: "0.5rem 1rem" }}>
+            {" "}
+            1)There are 2 login component which can be seen below, one is for sign up and other is for login, each looks the same as other except that first only asks for email and password and the other one asks for first and last name
+          </p>
+        </div>
+      </div>
+
+
       <div className="login-form">
         <div className="login-form-header">
           <i class="fas fa-user"></i>

@@ -36,6 +36,13 @@ function Nav1() {
           </div>
         </div>
       </div>
+      <div className="descrip" style={{margin:"0rem 1rem"}}>
+        <div className="heading">
+          <h2 style={{margin:"0rem 1rem"}} > NavBar one</h2>
+          <p style={{margin:"0.5rem 1rem"}}> The above shown is an simple navbar containing three differnet parts,first is details of the web application, second is important Navigation Present in the website and third is the users details and users action on the web spplication</p>
+        </div>
+        
+      </div>
     </div>
   );
 }

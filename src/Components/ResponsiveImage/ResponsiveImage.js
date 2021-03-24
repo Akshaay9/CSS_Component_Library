@@ -3,6 +3,15 @@ import React from 'react'
 function ResponsiveImage() {
     return (
         <>
+             <div className="descrip" style={{ margin: "0rem 1rem" }}>
+        <div className="heading">
+          <h2 style={{ margin: "0rem 1rem" }}> responsive Image</h2>
+          <p style={{ margin: "0.5rem 1rem" }}>
+            {" "}
+            Below there is two image, which are responsive in nature if the pixel of the display decreases, it automatically getsadjusted to it.
+          </p>
+        </div>
+      </div>
         <div>
              <div className="hero-banner-three">
             <>
