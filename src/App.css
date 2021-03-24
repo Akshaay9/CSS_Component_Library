@@ -32,7 +32,9 @@
   --toast-info-icon-color: #a6d5fa;
   --toast-success: #01180c;
   --toast-info-success-color: #b7dfb9;
-  --toast-font: Roboto, Helvetica, Arial, sans-serif;
+  --toast-font: Roboto, Helvetica, Arial, 
+  sans-serif;
+  --border:1px solid bblack;
   --toast-widht: 25%;
   --toast-height: 10vh;
   --toast-padding: 1rem;
@@ -1039,8 +1041,9 @@ li.hr-underline-grow:hover:before {
   justify-content:center;
   margin: auto;
   z-index: 100;
-  flex-wrap: wrap;
- 
+}
+.navForDoc .responsiveNavForDoc{
+  display: none !important
 }
 .navForDoc ul {
   display: flex;
@@ -1143,8 +1146,9 @@ justify-content: space-between;
 .footer-right-container {
   width: 14vw;
 }
-@media screen and (max-width: 700px) {
 
+/* responsiveNesss */
+@media screen and (max-width: 700px) {
   .hero-banner-three{
 flex-direction: column;
 justify-content: space-evenly;
@@ -1161,7 +1165,47 @@ object-fit: cover;
     height: 43vh;
    
   }
-  .yoga-banner{
+  .yoga-banner{ 
     margin-top: 1.2rem;
   }
+  /* navForDoc ResponsiveNess */
+.navForDoc{
+  display: block !important;
+
 }
+.navForDoc .responsiveNavForDoc{
+  display: flex !important
+}
+
+
+.responsiveNavForDoc{
+  display: flex;
+  height: inherit;
+  width: 45%;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1rem;
+}
+.navForDoc ul{
+  color: black;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  color: black(122, 73, 73);
+  transform: translateX(-100%);
+  transition: all 1s ease-in-out;
+  z-index: 200;
+}
+.showResponsiveNav{
+
+  transform: translateX(0%) !important;
+}
+.navForDoc ul li{
+  z-index: inherit;
+}
+}
+

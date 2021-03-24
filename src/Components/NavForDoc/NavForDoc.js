@@ -1,10 +1,17 @@
 import React,{useState} from 'react'
 
-function NavForDoc({setShowCssComp,showcssComp}) {
+function NavForDoc({ setShowCssComp, showcssComp }) {
+    
+    const [showNavForDoc,setShowNavForDoc]=useState(false)
     return (
         <div>
             <div className="navForDoc">
-                <ul>
+                <div className="responsiveNavForDoc">
+                  
+                    <i class="fas fa-bars" onClick={()=>setShowNavForDoc(!showNavForDoc)}></i>
+                    <h3>Ui World</h3>
+                </div>
+                <ul  className={showNavForDoc ?"showResponsiveNav":null} >
                    <li  onClick={()=>setShowCssComp("welcome")}>Intro</li>
                     <li onClick={() => setShowCssComp("avatar")}>Avatar</li>
                     <li onClick={()=>setShowCssComp("nav")}>Nav</li>
