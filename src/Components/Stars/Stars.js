@@ -24,7 +24,7 @@ function Stars() {
             </div>
             <div className="descrip" style={{margin:"0rem 1rem"}}>
         <div className="heading">
-          <h2 style={{margin:"0rem 1rem"}} > Ratings</h2>
+          <h2 style={{margin:"0rem 1rem"}} > Rating</h2>
           <p style={{margin:"0.5rem 1rem"}}>Ratings are added to define  or to add the rate/value of the component </p>
         </div>
         
