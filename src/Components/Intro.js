@@ -85,7 +85,7 @@ function Intro() {
                       minWidth: "19rem",
                 
             justifyContent: "space-between",
-            margin: "1rem auto",
+            margin: "1.3rem  auto ",
           }}
         >
           <a
