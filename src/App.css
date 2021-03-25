@@ -732,7 +732,7 @@ li{
   align-items: center;
 }
 .login-form-header .fas {
-  padding: 0.6px;
+  padding: 0.6rem;
   font-size: 1.3rem;
   border-radius: 50%;
   background-color: var(--pink);
@@ -783,7 +783,8 @@ input:focus::-webkit-input-placeholder {
 /* modal */
 
 .modal {
-  width: 27rem;
+  width: 30%;
+  min-width: 21rem;
   margin: auto;
   border: 1px solid black;
 }
@@ -1194,7 +1195,7 @@ object-fit: cover;
 .responsiveNavForDoc{
   display: flex;
   height: inherit;
-  width: 45%;
+  width: 55%;
   align-items: center;
   justify-content: space-between;
   margin-left: 1rem;
