@@ -4,6 +4,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
 
+*{
+  overflow-x: hidden !important
+}
+
 :root {
   /* global colors and fonts */
 
@@ -574,6 +578,7 @@ li{
 }
 .footer {
   margin-left: 1.2rem;
+  
 }
 /* carddismiss */
 
@@ -1121,11 +1126,10 @@ justify-content: space-between;
   /* font-size: 0.0rem; */
 }
 .footer {
-  height: 7vh;
-  display: flex;
+  /* height: 7vh;
   width: 100%;
   padding: 0%;
-  margin: 0%;
+  margin: 0%; */
   display: flex;
   border-top: 1px solid var(--line-color);
   justify-content: space-between;
@@ -1138,6 +1142,7 @@ justify-content: space-between;
   justify-content: flex-end;
 }
 .footer-right {
+  border: var(--border);
   width: 13vw;
   display: flex;
   justify-content: space-between;
@@ -1147,9 +1152,10 @@ justify-content: space-between;
   font-size: 1.4rem;
 }
 .footer-right-container {
-  width: 14vw;
+  width:20%;
 }
-/* cacob */
+
+
 
 /* responsiveNesss */
 @media screen and (max-width: 700px) {
@@ -1217,5 +1223,30 @@ object-fit: cover;
   z-index: 300 !important;
   color: white;
 }
+.footer{
+  flex-direction: column;
+}
+.footer-right-container {
+  width:50%;
+  margin: auto;
+  margin-top: 1rem;
+  display: block;
+}
+.footer-right {
+  border: var(--border);
+  width: 10rem;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  width: 90%;
+  padding: 1rem 0rem;
+display: block;
+padding: 0%;
+margin: 0%;
+}
+
+
+
 }
 
