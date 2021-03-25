@@ -3,7 +3,7 @@ import React from "react";
 function Card1() {
   return (
     <>
-      <div className="test" style={{ marginTop: "12px" }}></div>
+      <div className="test" style={{ margin: "12px auto" }}></div>
     <div
       style={{
         display: "grid",

@@ -19,6 +19,7 @@ import Intro from "./Components/Intro";
 import DropDownList from "./Components/DropDownLists/DropDownList";
 import ResponsiveImage from "./Components/ResponsiveImage/ResponsiveImage";
 import Footer from "./Components/Footer/Footer";
+import Stars from "./Components/Stars/Stars";
 function App() {
   const [showcssComp, setShowCssComp] = useState("welcome");
   return (
@@ -139,6 +140,11 @@ function App() {
       {showcssComp == "footer" && (
         <div className="ResponsiveImage">
           <Footer />
+        </div>)}
+    
+      {showcssComp == "stars" && (
+        <div >
+          <Stars />
         </div>
       )}
     </div>

@@ -20,6 +20,8 @@ function TextUtilities() {
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nisi obcaecati qui maiores eveniet commodi eaque eius consequuntur culpa non!</p>
             <h2 style={{textDecoration:"underline",margin:"12px 0px"}}>Paragraph Grey text: -</h2>
             <p className="shaded-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nisi obcaecati qui maiores eveniet commodi eaque eius consequuntur culpa non!</p>
+            <h2 style={{textDecoration:"underline",margin:"12px 0px",textAlign:"center"}}>Centered Text -</h2>
+            <p className="shaded-black" style={{textAlign:"center"}}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nisi obcaecati qui maiores eveniet commodi eaque eius consequuntur culpa non!</p>
             <iframe src="https://www.thiscodeworks.com/embed/605c4a732476f700148cf8c2"style={{ width: "90%", height: "22rem", display: "block", margin: "1rem auto", border: "none", minWidth: "23rem" }}></iframe>
         </div>
     )
