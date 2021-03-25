@@ -10,7 +10,9 @@
 
 :root {
   /* global colors and fonts */
-
+  --font-monteserrat: Montserrat, Helvetica, Arial, sans-serif;
+  --border: 0.0625rem solid black;
+  --font-sans-serif: sans-serif;
   --line-color: #d2d2d2;
   --light: #ffffff;
   --dark: #000000;
