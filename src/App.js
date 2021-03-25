@@ -119,18 +119,7 @@ function App() {
           <div className="test" style={{ marginTop: "12px" }}></div>
           <Alert />
           <div className="test" style={{ marginTop: "12px" }}></div>
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28216%2C217%2C218%2C1%29&t=blackboard&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=34px&ph=23px&ln=true&fl=1&fm=Fira+Code&fs=13px&lh=181%25&si=false&es=2x&wm=false&code=%2520%253Cdiv%2520className%253D%2522alert%2520alert-primary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520primary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522test%2522%2520style%253D%257B%257B%2520marginTop%253A%2520%252212px%2522%2520%257D%257D%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522alert%2520alert-secondary%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520secondary%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522test%2522%2520style%253D%257B%257BmarginTop%253A%252212px%2522%257D%257D%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522alert%2520alert-success%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520success%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522test%2522%2520style%253D%257B%257BmarginTop%253A%252212px%2522%257D%257D%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522alert%2520alert-danger%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520danger%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522test%2522%2520style%253D%257B%257BmarginTop%253A%252212px%2522%257D%257D%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522alert%2520alert-warning%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520warning%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522test%2522%2520style%253D%257B%257BmarginTop%253A%252212px%2522%257D%257D%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520className%253D%2522alert%2520alert-info%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520This%2520is%2520a%2520info%2520alert%25E2%2580%2594check%2520it%2520out%21%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E"
-            style={{
-              width: "620px",
-              height: "847px",
-              border: "0",
-              overflow: "hidden",
-              display: "block",
-              margin: "auto",
-            }}
-            sandbox="allow-scripts allow-same-origin"
-          ></iframe>
+          <iframe src="https://www.thiscodeworks.com/embed/605c3d922476f700148cf8b0"style={{ width: "55%", height: "23rem", display: "block", margin: "1rem auto", border: "none", minWidth: "21rem" }}></iframe>
         </div>
       )}
 
@@ -146,18 +135,7 @@ function App() {
           <div className="test" style={{ marginTop: "12px" }}></div>
           <Buttons />
           <div className="test" style={{ marginTop: "12px" }}></div>
-          <iframe
-            src="https://carbon.now.sh/embed?bg=rgba%28216%2C217%2C218%2C1%29&t=blackboard&wt=none&l=auto&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=17px&ph=17px&ln=true&fl=1&fm=Fira+Code&fs=13px&lh=181%25&si=false&es=2x&wm=false&code=%2520%253Cbutton%2520className%253D%2522btn%2520btn-primary%2520btn-primary-hr-outline-out%2522%253EPrimary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520className%253D%2522btn%2520btn-secondary%2520btn-secondary-hr-outline-in%2522%253Esecondary%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520className%253D%2522btn%2520btn-success%2520btn-success-hr-scale-out%2522%253Esuccess%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520className%253D%2522btn%2520btn-danger%2520btn-danger-hr-outline-out%2522%253Edanger%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520className%253D%2522btn%2520btn-info%2522%253Einfo%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520className%253D%2522btn%2520btn-light%2520btn-primary%2520btn-light-hr-outline-out%2522%253Elight%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520className%253D%2522btn%2520btn-dark%2522%253Edark%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520className%253D%2522btn%2520btn-link%2520btn-link-hr-outline-in-thick%2522%253Elink%253C%252Fbutton%253E%2520%2520"
-            style={{
-              width: "1020px",
-              height: "391px",
-              border: "0",
-              overflow: "hidden",
-              display: "block",
-              margin: "auto",
-            }}
-            sandbox="allow-scripts allow-same-origin"
-          ></iframe>
+          <iframe src="https://www.thiscodeworks.com/embed/605c41b22476f700148cf8b4" style={{ width: "55%", height: "9rem", display: "block", margin: "1rem auto", border: "none", minWidth: "21rem" }}></iframe>
         </div>
       )}
 
