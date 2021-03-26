@@ -566,7 +566,7 @@ li{
   font-weight: bolder;
   font-size: 1.3rem;
   border-radius: 8%;
-  left: 0.129;
+  left: 0.129rem;
   margin-top: 5px;
 }
 .description {
@@ -1126,6 +1126,7 @@ justify-content: space-between;
 }
 /* Footer */
 .footer-bottom-p-font {
+  color: rgb(78, 69, 69);
   font-family: var(--font-sans-serif);
   /* font-size: 0.0rem; */
   word-spacing: 0.2rem;
@@ -1192,6 +1193,57 @@ justify-content: space-between;
   color: var(--btn-light);
 
 }
+@media screen and (max-width: 1350px) {
+    /* navForDoc ResponsiveNess */
+.navForDoc{
+  display: block !important;
+  z-index: 300 !important;
+
+}
+.navForDoc .responsiveNavForDoc{
+  display: flex !important;
+  z-index: 300 !important;
+ 
+}
+
+
+.responsiveNavForDoc{
+  display: flex;
+  height: inherit;
+  width: 55%;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 1rem;
+  z-index: 300 !important;
+  position: relative;
+}
+.navForDoc ul{
+  color: black;
+  height: 100vh;
+  width: 100%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  color: black(122, 73, 73);
+  transform: translateX(-100%);
+  transition: all 550ms ease-in-out;
+  z-index: 300 !important;
+  position: relative;
+  overflow: scroll;
+}
+.showResponsiveNav{
+  transform: translateX(0%) !important;
+}
+.navForDoc ul li{
+  z-index: inherit;
+  z-index: 300 !important;
+  color: white;
+}
+}
+
 
 
 /* responsiveNesss */
