@@ -1141,9 +1141,10 @@ justify-content: space-between;
   align-items: center;
   color: black;
 }
-.footer-bottom-left {
- 
-  width: 37vw;
+.footer-bottom-left-{
+  /* border: 1px solid black; */
+  margin-left: 1rem;
+  /* width: 37vw; */
   display: flex;
   justify-content: flex-end;
 }
