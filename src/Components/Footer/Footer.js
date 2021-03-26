@@ -32,7 +32,7 @@ function Footer() {
         </div>
       </div>
 
-      <iframe src="https://www.thiscodeworks.com/embed/605c3bd82476f700148cf8af" style="width: 100%; height: 255px;" style={{ width: "55%", height: "13rem", display: "block", margin: "1rem auto", border: "none", minWidth: "21rem" }}></iframe>
+      <iframe src="https://www.thiscodeworks.com/embed/605c3bd82476f700148cf8af" style="width: 100%; height: 255px;" style={{ width: "65%", height: "13rem", display: "block", margin: "1rem auto", border: "none", minWidth: "21rem" }}></iframe>
     </div>
   );
 }

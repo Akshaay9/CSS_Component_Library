@@ -72,7 +72,7 @@ function Avatar() {
         </div>
       </div>
 
-      <iframe src="https://www.thiscodeworks.com/embed/605c32d52476f700148cf8aa" style={{ width: "50%", height: "22rem", display: "block", margin: "1rem auto", border: "none", minWidth: "21rem" }}></iframe>
+      <iframe src="https://www.thiscodeworks.com/embed/605c32d52476f700148cf8aa" style={{ width: "70%", height: "22rem", display: "block", margin: "1rem auto", border: "none", minWidth: "21rem" }}></iframe>
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(5,90px)" }}>
         <div className="avatar squre-xs">
@@ -111,7 +111,7 @@ function Avatar() {
         </div>
       </div>
 
-      <iframe src="https://www.thiscodeworks.com/embed/605c35142476f700148cf8ae" style={{ width: "50%", height: "22rem", display: "block", margin: "1rem auto", border: "none", minWidth: "21rem" }}></iframe>
+      <iframe src="https://www.thiscodeworks.com/embed/605c35142476f700148cf8ae" style={{ width: "70%", height: "22rem", display: "block", margin: "1rem auto", border: "none", minWidth: "21rem" }}></iframe>
        
     </div>
   );
