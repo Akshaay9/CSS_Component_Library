@@ -6,7 +6,7 @@ function Avatar() {
       <div
         style={{
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fill,80px)",
+          gridTemplateColumns: "repeat(auto-fill,90px)",
         }}
       >
         <div className="avatar round-xs">
@@ -15,13 +15,13 @@ function Avatar() {
             alt=""
           />
         </div>
-        <div className="avatar round-sm">
+        <div className="avatar round-sm" >
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/8/89/Chris_Evans_2020_%28cropped%29.jpg"
             alt=""
           />
         </div>
-        <div className="avatar round-lg">
+        <div className="avatar round-lg" style={{ marginLeft: "-5px" }}>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/8/89/Chris_Evans_2020_%28cropped%29.jpg"
             alt=""
@@ -72,7 +72,7 @@ function Avatar() {
         </div>
       </div>
 
-      <iframe src="https://www.thiscodeworks.com/embed/605c32d52476f700148cf8aa" style={{ width: "50%", height: "22rem", display: "block", margin: "1rem auto", border: "none", minWidth: "21rem" }}></iframe>
+      <iframe src="https://www.thiscodeworks.com/embed/605c32d52476f700148cf8aa" style={{ width: "70%", height: "22rem", display: "block", margin: "1rem auto", border: "none", minWidth: "21rem" }}></iframe>
 
       <div style={{ display: "grid", gridTemplateColumns: "repeat(5,90px)" }}>
         <div className="avatar squre-xs">
@@ -81,13 +81,13 @@ function Avatar() {
             alt=""
           />
         </div>
-        <div className="avatar squre-sm">
+        <div className="avatar squre-sm" style={{marginLeft:"-5px"}}>
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/8/89/Chris_Evans_2020_%28cropped%29.jpg"
             alt=""
           />
         </div>
-        <div className="avatar squre-lg">
+        <div className="avatar squre-lg"  style={{marginLeft:"-10px"}} >
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/8/89/Chris_Evans_2020_%28cropped%29.jpg"
             alt=""
@@ -111,7 +111,7 @@ function Avatar() {
         </div>
       </div>
 
-      <iframe src="https://www.thiscodeworks.com/embed/605c35142476f700148cf8ae" style={{ width: "50%", height: "22rem", display: "block", margin: "1rem auto", border: "none", minWidth: "21rem" }}></iframe>
+      <iframe src="https://www.thiscodeworks.com/embed/605c35142476f700148cf8ae" style={{ width: "70%", height: "22rem", display: "block", margin: "1rem auto", border: "none", minWidth: "21rem" }}></iframe>
        
     </div>
   );

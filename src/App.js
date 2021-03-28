@@ -22,9 +22,13 @@ import Footer from "./Components/Footer/Footer";
 import Stars from "./Components/Stars/Stars";
 function App() {
   const [showcssComp, setShowCssComp] = useState("welcome");
+  const [showNavForDoc,setShowNavForDoc]=useState(false)
   return (
-    <div>
-      <NavForDoc showcssComp={showcssComp} setShowCssComp={setShowCssComp} />
+    <div style={showNavForDoc?{height:"100vh",overflow:"hidden"}:{}} >
+      {/* style={{height:"100vh",overflowY:"hidden"}} */}
+      <NavForDoc showcssComp={showcssComp} setShowCssComp={setShowCssComp} showNavForDoc={showNavForDoc}
+      setShowNavForDoc={setShowNavForDoc}
+      />
       {showcssComp == "welcome" && (
         <>
           <Intro />

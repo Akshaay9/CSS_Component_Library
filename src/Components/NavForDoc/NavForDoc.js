@@ -1,8 +1,8 @@
 import React,{useState} from 'react'
 
-function NavForDoc({ setShowCssComp, showcssComp }) {
+function NavForDoc({ setShowCssComp, showcssComp,showNavForDoc,setShowNavForDoc }) {
     
-    const [showNavForDoc,setShowNavForDoc]=useState(false)
+ 
     return (
         <div>
             <div className="navForDoc">
