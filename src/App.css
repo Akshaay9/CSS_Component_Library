@@ -764,12 +764,12 @@ li{
   font-size: 0.9rem;
 }
 
-input:focus::-webkit-input-placeholder {
+/* input:focus::-webkit-input-placeholder {
   position: absolute;
   transform: translate(-20%, -35%);
   font-size: 0.8rem;
   transition: all 0.3s ease-in-out;
-}
+} */
 .login-form-name-first,
 .login-form-name-last {
   width: 48%;
