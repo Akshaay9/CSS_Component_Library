@@ -9,7 +9,7 @@ function Nav2() {
             <h2>YOGA FUN</h2>
           </div>
         </div>
-        <div className="nav_center">
+        <div className="nav_center mobile-hide">
           <ul>
             <li className="hr-underline-middle">Home</li>
             <li className="hr-underline-middle">About</li>
