@@ -14,12 +14,12 @@ function NavForDoc({ setShowCssComp, showcssComp,showNavForDoc,setShowNavForDoc 
                 <ul  className={showNavForDoc ?"showResponsiveNav":null} >
                     <li onClick={() => { setShowCssComp("welcome");setShowNavForDoc(false)}}>Intro</li>
                     <li onClick={() => { setShowCssComp("avatar"); setShowNavForDoc(false) }}>Avatar</li>
-                   
+                     <li onClick={()=>{setShowCssComp("nav");setShowNavForDoc(false)}}>Nav</li>
                     <li onClick={()=>{setShowCssComp("footer");setShowNavForDoc(false)}}>Footer</li>
                     <li  onClick={()=>{setShowCssComp("alert");setShowNavForDoc(false)}}>Alert</li>
                     <li  onClick={()=>{setShowCssComp("badge");setShowNavForDoc(false)}}>Badge</li>
                     <li onClick={() => { setShowCssComp("buttons"); setShowNavForDoc(false) }}>Buttons</li>
-                    <li onClick={()=>{setShowCssComp("nav");setShowNavForDoc(false)}}>Nav</li>
+                  
                     <li  onClick={()=>{setShowCssComp("cards");setShowNavForDoc(false)}}>Cards</li>
                     <li  onClick={()=>{setShowCssComp("input");setShowNavForDoc(false)}}>Input</li>
                     <li  onClick={()=>{setShowCssComp("list");setShowNavForDoc(false)}}>List</li>

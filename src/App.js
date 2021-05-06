@@ -21,7 +21,7 @@ import ResponsiveImage from "./Components/ResponsiveImage/ResponsiveImage";
 import Footer from "./Components/Footer/Footer";
 import Stars from "./Components/Stars/Stars";
 function App() {
-  const [showcssComp, setShowCssComp] = useState("nav");
+  const [showcssComp, setShowCssComp] = useState("welcome");
   const [showNavForDoc,setShowNavForDoc]=useState(false)
   return (
     <div style={showNavForDoc?{height:"100vh",overflow:"hidden"}:{}} >
